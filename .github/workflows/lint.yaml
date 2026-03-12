@@ -3,7 +3,7 @@ name: Ruff Lint
 on: [push]
 
 jobs:
-  build:
+  First-GitHub-Action:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
