@@ -17,6 +17,9 @@ jobs:
       - name: Install Ruff
         run: pip3 install ruff
 
-      - name: Run Linter
+      - name: Run Linter Check
         run: ruff check .
+
+      - name: Run Linter Check Format
+        run: ruff format --check
     
