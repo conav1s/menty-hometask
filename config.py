@@ -1,2 +1,2 @@
 def hello():
-    print("Something is happened")
+    print("Choose your destiny")
