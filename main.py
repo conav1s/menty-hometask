@@ -2,6 +2,7 @@ from config import hello
 
 
 def main():
+    print("call main function")
     hello()
 
 
